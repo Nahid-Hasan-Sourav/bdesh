@@ -1,11 +1,13 @@
 import { useState } from "react";
-import { IoMdArrowDropright, } from "react-icons/io";
+import { IoMdArrowDropright } from "react-icons/io";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
+import { MdKeyboardArrowDown, MdCall } from "react-icons/md";
 
 import logo from "../../assets/logo_bdesh.svg";
 import navAdd from "../../assets/nav-add.png";
 import self from "../../assets/self.jpg";
+import { Button } from "flowbite-react";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -23,14 +25,16 @@ export default function Navbar() {
   return (
     <nav className="bg-[#ECEFF1]">
       <div className="">
-        <div className="">
+        <div className="flex flex-col">
           <div className="hidden md:block">
             <div className="mx-10 flex flex-row  justify-between items-center  h-[43px]">
-              <div className="w-[80%]">
-                <a className="mr-[21px]">Bdjobs</a>
-                <a className="mr-[21px]">Jobs</a>
-                <a className="mr-[21px]">Job Seeker Account</a>
-                <a className="bg-gray-400 h-[43px] inline-block px-[4px]">
+              <div className="md:w-[80%] sm:w-[90%]">
+                <a className="mr-[13px] text-[13px] font-semibold">Bdjobs</a>
+                <a className="mr-[13px] text-[13px] font-semibold">Jobs</a>
+                <a className="mr-[13px] text-[13px] font-semibold">
+                  Job Seeker Account
+                </a>
+                <a className="bg-gray-400 inline-block px-[4px] text-[13px] font-semibold h-[43px]">
                   AccountRecruitment Agency / Foreign Employers
                   <span className="text-[25px]">
                     <IoMdArrowDropright className="inline-block"></IoMdArrowDropright>
@@ -39,8 +43,8 @@ export default function Navbar() {
                 </a>
               </div>
 
-              <div className="text-right flex justify-start w-[20%]">
-                <div className="flex justify-start">
+              <div className="text-right flex justify-start md:w-[20%] sm:w-[10%]">
+                <div className="flex justify-start items-center">
                   <span className="w-[24px] h-[24px] text-white bg-[#3b5998] rounded-[50%] flex justify-center items-center mr-[10px]">
                     <AiFillFacebook />
                   </span>
@@ -48,17 +52,25 @@ export default function Navbar() {
                     <AiFillYoutube />
                   </span>
                 </div>
-                <div className="btn-group flex justify-center items-center ml-[10px]">
-                  <button className="btn btn-xs bg-blue-700 text-white">
-                    Eng
-                  </button>
-                  <button className="btn btn-xs text-blue-700 bg-white">
-                    বাংলা
-                  </button>
+                <div className="ml-[10px]">
+                <Button.Group className=" rounded-none">
+                    <Button color="info" className="h-[19px] rounded-none  ">
+                      Eng
+                    </Button>
+                    <Button
+                      color="gray"
+                      className="h-[19px] rounded-none  text-[blue]"
+                    >
+                      বাংলা
+                    </Button>
+                  </Button.Group>
+
+                  {/* bg-[#1565C0] text-white text-[13px] */}
                 </div>
               </div>
             </div>
 
+            {/* nav-part-ii */}
             <div className="bg-white">
               <div className="mx-10 py-[15px] flex justify-between">
                 <div className="w-[33.33%]">
@@ -69,17 +81,22 @@ export default function Navbar() {
                   <img src={navAdd} />
                 </div>
 
-                <div className="flex justify-start w-[33.33%]">
+                <div className="flex  w-[33.33%]">
                   <div className="flex items-center">
                     <img
                       src={self}
                       className="w-[22px] h-[22px] rounded-[50%] border-2 border-blue-600 mr-[5px]"
                     />
-                    <span>Nahid Hasan Sourav</span>
+                    <span className="flex justify-center items-center">
+                      <span className="text-[#1565C0]">Nahid Hasan Sourav</span>
+                      <MdKeyboardArrowDown className="ml-[2px]" />
+                    </span>
+                    <div className="ml-[15px] flex justify-center items-center">
+                      <MdCall className="text-[25px] font-extrabold" />
+                      <span className="ml-[10px]">Contact Us</span>
+                    </div>
                   </div>
-                  <div>
-                   
-                  </div>
+                  <div></div>
                 </div>
               </div>
             </div>
