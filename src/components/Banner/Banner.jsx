@@ -4,6 +4,8 @@ import BannerSlider from "../slider/BannerSlider";
 import bideshJatra from'../../assets/bdesh_jatra.svg';
 import biodata from'../../assets/submit_biodata.png';
 
+
+
 const Banner = () => {
     const vacancies = [
         {
@@ -38,8 +40,8 @@ const Banner = () => {
   return (
     <div>
       <div className="container mx-auto ">
-        <div className="grid grid-cols-12">
-          <div className="col-span-3 border text-left pr-[20px] bg-[#2D79CE]">
+        <div className="grid lg:grid-cols-12 md:grid-cols-12  gap-[0px]">
+          <div className="lg:col-span-3 md:col-start-1 md:col-end-7 border text-left pr-[20px] bg-[#2D79CE] lg:order-1 md:order-3 sm:order-3">
             <div className="ml-[35px] pt-[20px] pb-[22px]">
               <h2 className="text-lg text-[22px] font-bold text-white">
                 Find your dream job
@@ -84,14 +86,14 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="h-[400px]   col-span-6 rounded-none mx-0">
+          <div className="h-[400px]  md:col-start-1 md:col-span-12 lg:col-span-6 rounded-none mx-0 lg:order-2 md:order-1 sm:order-1 ">
             <BannerSlider />
           </div>
 
-          <div className="col-span-3 bg-[#2D79CE] pt-[20px] pb-[22px]">
+          <div className="lg:col-span-3 md:col-start-7 md:col-end-13 bg-[#2D79CE] pt-[20px] pb-[22px] lg:order-3 md:order-3 sm:order-2">
             <div className="pl-[15px]">
               <h2 className="text-lg text-[22px] font-bold text-white mb-[10px]">
-                Find your dream job
+              Country wise vacancies
               </h2>
 
               {vacancies?.map((item) => {
@@ -118,7 +120,9 @@ const Banner = () => {
             </div>
           </div>
         </div>
+        
       </div>
+      
     </div>
   );
 };
