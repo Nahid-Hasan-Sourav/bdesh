@@ -23,7 +23,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-[#ECEFF1]">
+    <nav className="bg-[#ECEFF1] container mx-auto">
       <div className="">
         <div className="flex flex-col">
           <div className="hidden md:block">

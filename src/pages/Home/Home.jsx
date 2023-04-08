@@ -9,7 +9,9 @@ const Home = () => {
         <div>
             <Navbar/>
             <Banner/>
-            <JobVacancies/>
+           <div className='hidden md:block'>
+           <JobVacancies />
+           </div>
         </div>
     );
 };

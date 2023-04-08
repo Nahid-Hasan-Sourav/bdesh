@@ -3,6 +3,7 @@ import React from "react";
 import BannerSlider from "../slider/BannerSlider";
 import bideshJatra from'../../assets/bdesh_jatra.svg';
 import biodata from'../../assets/submit_biodata.png';
+import JobVacancies from "../JobVacancies/JobVacancies";
 
 
 
@@ -90,8 +91,12 @@ const Banner = () => {
             <BannerSlider />
           </div>
 
+          <div className="md:hidden block md:order-0 order-2 mb-0">
+            <JobVacancies/>
+          </div>
+
           <div className="lg:col-span-3 md:col-start-7 md:col-end-13 bg-[#2D79CE] pt-[20px] pb-[22px] lg:order-3 md:order-3 sm:order-2">
-            <div className="pl-[15px]">
+            <div className="md:pl-[15px] pl-[0px] md:ml-[0px] ml-[35px]">
               <h2 className="text-lg text-[22px] font-bold text-white mb-[10px]">
               Country wise vacancies
               </h2>

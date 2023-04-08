@@ -4,7 +4,7 @@ import { ImWrench } from "react-icons/im";
 
 const JobVacancies = () => {
   return (
-    <div className="container mx-auto mb-[100px]">
+    <div className="container mx-auto">
       <div className="flex justify-center mt-[15px]">
 
         <div className="w-[30%] py-[10px]">
