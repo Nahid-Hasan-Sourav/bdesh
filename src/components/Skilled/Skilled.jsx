@@ -9,9 +9,9 @@ const Skilled = ({data}) => {
                 data.map((item)=>{
                     return (
                       <div className="card bg-base-100 shadow-md rounded-md">
-                        <div className="card-body p-[10px] flex-row">
+                        <div className="card-body p-[10px] flex-row items-center">
                          <img src={item.img} className="w-[28px] h-[28px]"/>
-                         <p className='text-[16px] font-bold'>{item.name} ({item.number})</p>
+                         <p className='text-[13px] font-bold'>{item.name} ({item.number})</p>
                         </div>
                       </div>
                     );

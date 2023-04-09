@@ -5,6 +5,7 @@ import ButtonGroup from 'flowbite-react/lib/esm/components/Button/ButtonGroup';
 import { Button } from 'flowbite-react';
 
 import specialSkilled from '../../assets/data/specialSkilled.json'
+import generalSkilled from '../../assets/data/generalSkilled.json'
 import Skilled from '../Skilled/Skilled';
 import MakeBiodata from '../MakeBiodata/MakeBiodata';
 import Guideline from '../Guideline/Guideline';
@@ -73,7 +74,7 @@ const Category = () => {
                       <Skilled data={specialSkilled} />
                     </Tab.Panel>
                     <Tab.Panel>
-                      <Skilled data={specialSkilled} />
+                      <Skilled data={generalSkilled} />
                     </Tab.Panel>
                   </Tab.Panels>
                 </div>

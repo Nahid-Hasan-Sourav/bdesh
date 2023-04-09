@@ -65,14 +65,14 @@
         "img": "https://i.ibb.co/TLXHywf/Carpenter.png"
     },
     {
-        "name": "শো-রুম সহকারী/সেলসম",
+        "name": "শো-রুম সহকারী/সেলসম্যান",
         "number": "0",
         "img":"https://i.ibb.co/MVqkG1t/Salesman.png"
     },
     {
-        "name": "শো-রুম সহকারী/সেলসম",
-        "number": "0",
-        "img":"https://i.ibb.co/MVqkG1t/Salesman.png"
+        "name": "অন্যান্য",
+        "number": "10",
+        "img":"https://i.ibb.co/GCLkfsm/Others.png"
     }
 
 ]

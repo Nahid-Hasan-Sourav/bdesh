@@ -40,7 +40,7 @@ const Banner = () => {
     ]
   return (
     <div>
-      <div className="container mx-auto ">
+      <div className="container-fluid  ">
         <div className="grid lg:grid-cols-12 md:grid-cols-12  gap-[0px]">
           <div className="lg:col-span-3 md:col-start-1 md:col-end-7 border text-left pr-[20px] bg-[#2D79CE] lg:order-1 md:order-3 sm:order-3">
             <div className="ml-[35px] pt-[20px] pb-[22px]">
@@ -82,7 +82,7 @@ const Banner = () => {
               </div>
 
               <div className="mt-[15px] mb-[30px]">
-                <Button color="warning">Search</Button>
+                <button className="btn btn-warning md:w-[30%] w-[100%]">Search</button>
               </div>
             </div>
           </div>

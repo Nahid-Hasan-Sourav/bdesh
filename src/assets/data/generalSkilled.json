@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Accounting/Finance",
+        "number": "6",
+        "img": "https://i.ibb.co/CKh4PV0/Accounting-finance.png"
+    },
+    {
+        "name": "Production/Operation",
+        "number": "0",
+        "img": "https://i.ibb.co/FB6GTZ4/Production-operation.png"
+    },
+    {
+        "name": "Agro (Plant/Animal/Fis...",
+        "number": "0",
+        "img": "https://i.ibb.co/pw3CQLV/Agroplant.png"
+    },
+    {
+        "name": "Hospitality/ Travel/ T... ",
+        "number": "5",
+        "img": "https://i.ibb.co/tcF5xNZ/Hospitality-Travel-Tourism.png"
+    },
+    {
+        "name": "Beauty Care/ Health & ...",
+        "number": "0",
+        "img": "https://i.ibb.co/7zq5yxr/Beauty-Care-Health-Fitness.png"
+    },
+    {
+        "name": "Education/Training",
+        "number": "0",
+        "img": "https://i.ibb.co/zGRX7VK/Education-Training.png"
+    },
+    {
+        "name": "Electrician/ Construct...",
+        "number": "0",
+        "img": "https://i.ibb.co/1Tvkj4Q/Electrician-Construction-Repair.png"
+    },
+    {
+        "name": "Secretary/Receptionist",
+        "number": "0",
+        "img": "https://i.ibb.co/tXQfgPF/Secretary-Receptionist.png"
+    },
+    {
+        "name": "Engineer/Architects",
+        "number": "31",
+        "img": "https://i.ibb.co/CsLf8Yg/Engineer-Architects.png"
+    },
+    {
+        "name": "IT & Telecommunication",
+        "number": "25",
+        "img": "https://i.ibb.co/qgRfzG2/IT-Telecommunication.png"
+    },
+    {
+        "name": "Marketing-Sales",
+        "number": "51",
+        "img": "https://i.ibb.co/0sjsLsJ/Marketing-Sales.png"
+    },
+    {
+        "name": "Gen Mgt/Admin",
+        "number": "0",
+        "img": "https://i.ibb.co/t3vzKz6/Gen-Mgt-Admin.png"
+    },
+    {
+        "name": "Design/Creative",
+        "number": "0",
+        "img": "https://i.ibb.co/4N9jRXf/Design-Creative.png"
+    },
+    {
+        "name": "Medical/Pharma",
+        "number": "1",
+        "img":"https://i.ibb.co/7WkVfXC/Medical-Pharma.png"
+    },
+    {
+        "name": "Others",
+        "number": "15",
+        "img":"https://i.ibb.co/k6M8j6P/Othersf.png"
+    }
+
+]
