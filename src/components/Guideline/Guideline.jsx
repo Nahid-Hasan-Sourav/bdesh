@@ -26,8 +26,8 @@ const Guideline = () => {
     ]
     return (
       <div>
-        <div className="card rounded-md w-[95%] bg-base-100 shadow-md mt-[40px]">
-          <div className="card-body">
+        <div className="card rounded-md  bg-base-100 shadow-md mt-[40px]">
+          <div className="card-body lg:p-8 p-2">
             <h2 className="card-title text-[16px] font-bold">বিদেশ জবস্ এর গাইডলাইন</h2>
             {
                 guideline.map((item)=>{

@@ -20,7 +20,7 @@ const ImportantLink = () => {
     return (
         <div>
         <div className="card rounded-md bg-base-100 shadow-md mt-[10px]">
-          <div className="card-body">
+          <div className="card-body lg:p-8 p-2">
             <h2 className="card-title text-[16px] font-bold">সরকারি গুরুত্বপূর্ণ লিংক সমূহ</h2>
             {
                 links.map((item)=>{
@@ -36,7 +36,7 @@ const ImportantLink = () => {
             }
 
            <div className='flex justify-end -mt-[50px]'>
-           <img src={coin} className='w-[50px] '/>
+           <img src={coin} className='w-[80px] '/>
            </div>
            
             

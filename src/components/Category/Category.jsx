@@ -14,8 +14,8 @@ import ImportantLink from '../ImportantLink/ImportantLink';
 const Category = () => { 
     return (
       <div className="container mx-auto p-[35px] bg-[#ECEFF1]">
-        <div className="flex">
-          <div className="border-2 border red w-[70%] ">
+        <div className="flex md:flex-row flex-col">
+          <div className=" md:w-[70%] w-[100%] ">
             <div>
               <Tab.Group>
                 <div className="flex justify-between">
@@ -80,13 +80,16 @@ const Category = () => {
               </Tab.Group>
             </div>
 
+            <div className='md:hidden block mt-[15px]'>
+               <button className="btn btn-primary w-[100%]">Button</button>
+            </div>
            <div>
             <MakeBiodata/>
            </div>
 
           </div>
 
-          <div className="border-2 border red w-[30%] px-[20px]">
+          <div className=" md:w-[30%] w-[100%] lg:px-[20px] md:px-[10px]">
             <Guideline/>
             <ImportantLink/>
           </div>

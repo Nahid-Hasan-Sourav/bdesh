@@ -16,11 +16,13 @@ const MakeBiodata = () => {
         }
     ]
     return (
-        <div className='grid grid-cols-2 gap-6 mt-[18px]'>
+        <div className='grid lg:grid-cols-2 grid-cols-1 gap-6 mt-[18px]'>
 
             {data.map((item,index)=>{
+                const cardBgColor = index === 0 ? "bg-blue-500" : index === 1 ? "bg-violet-500" : "bg-base-100";
+
                 return (
-                  <div className={`card flex-row bg-base-100 shadow-xl py-[0px] ${index === 0 ? 'bg-[#036DC5]' : 'bg-[#6047AF]'}`}>
+                  <div className={`card flex-row bg-base-100 shadow-xl py-[0px] ${cardBgColor}`}>
                     <figure>
                       <img src={item.img} alt="Movie" 
                       className='w-[150px]'
