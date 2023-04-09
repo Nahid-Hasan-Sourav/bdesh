@@ -1,0 +1,78 @@
+[
+    {
+        "name": "ইলেকট্রিশিয়ান",
+        "number": "11",
+        "img": "https://i.ibb.co/z5QFDvp/Electrician.png"
+    },
+    {
+        "name": "মেকানিক/টেকনিশিয়ান",
+        "number": "10",
+        "img": "https://i.ibb.co/ByyBBn9/Mechanic.png"
+    },
+    {
+        "name": "ড্রাইভার",
+        "number": "0",
+        "img": "https://i.ibb.co/M6n49j0/Driver.png"
+    },
+    {
+        "name": "নার্স",
+        "number": "0",
+        "img": "https://i.ibb.co/VLPBP21/Nurse.png"
+    },
+    {
+        "name": "শেফ/বাবুর্চী",
+        "number": "0",
+        "img": "https://i.ibb.co/ypNDB3L/Schef.png"
+    },
+    {
+        "name": "প্লাম্বার/পাইপফিটিং",
+        "number": "0",
+        "img": "https://i.ibb.co/cLzhSBP/Plumber.png"
+    },
+    {
+        "name": "ওয়েটার / ওয়েট্রেস",
+        "number": "5",
+        "img": "https://i.ibb.co/P518ZMz/Waiter.png"
+    },
+    {
+        "name": "ওয়েল্ডার ",
+        "number": "0",
+        "img": "https://i.ibb.co/743cL0X/Welder.png"
+    },
+    {
+        "name": "হাউজকিপার",
+        "number": "0",
+        "img": "https://i.ibb.co/t4Rgjy2/Housekeeper.png"
+    },
+    {
+        "name": "রাজমিস্ত্রি/নির্মাণ কর্মী",
+        "number": "0",
+        "img": "https://i.ibb.co/RzChhyf/Mason.png"
+    },
+    {
+        "name": "মালী",
+        "number": "0",
+        "img": "https://i.ibb.co/nMW4MYD/Gardener.png"
+    },
+    {
+        "name": "ক্লিনার",
+        "number": "0",
+        "img": "https://i.ibb.co/17p7RzM/Cleaner.png"
+    },
+    {
+        "name": "কার্পেন্টার",
+        "number": "0",
+        "img": "https://i.ibb.co/TLXHywf/Carpenter.png"
+    },
+    {
+        "name": "শো-রুম সহকারী/সেলসম",
+        "number": "0",
+        "img":"https://i.ibb.co/MVqkG1t/Salesman.png"
+    },
+    {
+        "name": "শো-রুম সহকারী/সেলসম",
+        "number": "0",
+        "img":"https://i.ibb.co/MVqkG1t/Salesman.png"
+    }
+
+]
