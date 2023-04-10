@@ -19,25 +19,26 @@ const Category = () => {
           <div className=" md:w-[70%] w-[100%] ">
             <div>
               <Tab.Group>
-                <div className="flex justify-between">
-                  <div>
-                    <div className="flex">
+
+                <div className="flex justify-between items-center h-[100%]">
+                  
+                    <div className="flex items-center h-full">
                       <span>
                         <img src={category} className="w-[30px] h-[30px]" />
                       </span>
                       <h2 className="text-[20px] ms-[4px]">Category</h2>
                     </div>
-                  </div>
-                  <div>
+                  
+                  <div className='-mt-[10px]'>
                     <Tab.List>
-                      <ButtonGroup className="">
+                      <buttton className="btn-group">
                         <Tab>
                           {({ selected }) => (
                             /* Use the `selected` state to conditionally style the selected tab. */
                             <button
                               className={
                                 `
-                                btn btn-sm rounded-r-none
+                                btn btn-sm rounded-r-none mt-0
                                 ${selected ? "bg-blue-500 text-white "
                                   : "bg-white text-blue-500 border-blue-500"}
                                 `
@@ -54,7 +55,7 @@ const Category = () => {
                             <button
                             className={
                                 `
-                                btn btn-sm rounded-l-none
+                                btn btn-sm rounded-l-none mt-0
                                 ${selected ? "bg-blue-500 text-white "
                                   : "bg-white text-blue-500 border-blue-500"}
                                 `
@@ -64,10 +65,11 @@ const Category = () => {
                             </button>
                           )}
                         </Tab>
-                      </ButtonGroup>
+                      </buttton>
                     </Tab.List>
                   </div>
                 </div>
+
                 <div>
                   <Tab.Panels>
                     <Tab.Panel className="">
@@ -81,8 +83,8 @@ const Category = () => {
               </Tab.Group>
             </div>
 
-            <div className='md:hidden block mt-[15px]'>
-               <button className="btn btn-primary w-[100%]">Button</button>
+            <div className='md:hidden block mt-[0px]'>
+               <button className="btn btn-primary w-[100%] btn-warning">আরো দেখুন</button>
             </div>
            <div>
             <MakeBiodata/>

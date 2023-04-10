@@ -2,6 +2,7 @@ import React from "react";
 import ReactPlayer from 'react-player';
 import bdjobs from '../../assets/Bdjobs-logo.png';
 import iom from '../../assets/IOM.png';
+
 const VideoOrganization = () => {
   return (
     <div className="md:container mx-auto bg-[#EAEDEF] pb-[40px]">
@@ -23,6 +24,7 @@ const VideoOrganization = () => {
         <div>
           <h2 className="font-bold text-xl my-[15px]">Jointly Organized</h2>
 
+          <div className="">
           <div className="grid grid-cols-2 ">
             <div className="card bg-base-100 shadow-xl ">
               <div className="card-body">
@@ -35,6 +37,9 @@ const VideoOrganization = () => {
               </div>
             </div>
           </div>
+          </div>
+
+          
 
         </div>
       </div>
